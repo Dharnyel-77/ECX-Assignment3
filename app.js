@@ -2,11 +2,11 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
 const PORT = 5000;
+
+
+
 app.use(bodyParser.json());
 
-// let data = [
-//   { "name": "Shawshank Redemption", "year": 1994, "id": 1 }
-// ];
 
 const films = [
   { "name": "Shawshank Redemption", "year": 1994, "id": 1 },
